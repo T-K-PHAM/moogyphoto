@@ -121,11 +121,14 @@ div.right {
 
 /* Footer */
 footer { 
-	clear: both;
-	border-top: 2px solid black;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 	padding: 15px;
-	position: relative;	
-    background-color: black;
+	background-color: black;
+	color: white;
+	text-align: center;
 }
 
 footer p {
